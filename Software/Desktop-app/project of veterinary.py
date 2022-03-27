@@ -44,7 +44,7 @@ class ConnectorDB:
         gender = StringVar()
         zipCode = StringVar()
         birthDate = StringVar()
-        #==================================================================================================
+        #=================================================================================================
 
         def iExit():
             iExit = tkinter.messagebox.askyesno("MySQL Conection", "Confirm if You want to exit")
