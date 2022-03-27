@@ -87,7 +87,7 @@ class ConnectorDB:
                 Reset()
 
         def display():
-            sqlCon = pymysql.connect(host="localhost", user="root", password="MyNewPass", database="mydb")
+            sqlCon = pymysql.connect(host="localhost", user="username", password="pass", database="mydb")
             cur = sqlCon.cursor()
             cur.execute("select ssn, F_name, M_name, L_name, City, Street, Zip_code, Emp_Gender, Emp_Bdata from employee")
             result = cur.fetchall()
